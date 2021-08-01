@@ -9,8 +9,7 @@ The app is optimised for use on desktop only (screen width > 1200px).
 
 ## How do I start the app?
 
-Start both server and frontend project by using `npm start` command. The port for frontend is `localhost:3000`, and for
-server is `localhost:8000`
+- run `npm install` command in both server and frontend folders. Then, from root folder run `npm start` command. The port for frontend is `localhost:3000`, and for server is `localhost:8000`.
 
 ## Libraries I used in the project
 
@@ -19,5 +18,5 @@ server is `localhost:8000`
 
 ## TODO
 
-- persist state with redux-persist (robots, cart and form) -> will require redux-forms
-- make the app responsive at all screen sizes (with dynamic Drawer?)
+- make the app responsive at all screen sizes (with dynamic Drawer?);
+- add tests
