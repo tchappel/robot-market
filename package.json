@@ -1,0 +1,20 @@
+{
+  "name": "robot-market",
+  "version": "1.0.0",
+  "description": "e-commerce site for buying robots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && node index.js & cd frontend && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trc485/robot-market.git"
+  },
+  "author": "thomas chappel - https://github.com/trc485",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trc485/robot-market/issues"
+  },
+  "homepage": "https://github.com/trc485/robot-market#readme"
+}
