@@ -21,7 +21,8 @@ import {
   selectRobotsFilterLoading,
   selectRobotsFilterOptions,
 } from "store/robotsFilterSlice";
-import { formatTHB, formatDateString } from "services/currency";
+import { formatTHB } from "services/currency";
+import { formatDateString } from "services/time";
 import useCartAction from "hooks/useCartAction";
 import { isEmptyObject, isEmptyArray } from "services/logic";
 
